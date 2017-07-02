@@ -1,0 +1,224 @@
+body,figure,figcaption,p,img{
+	margin:0;
+	padding: 0;
+}
+figure{
+	position: relative;
+	float: left;
+}
+figcaption{
+	position: absolute;
+	top:45px;
+
+}
+/*test1*/
+	.test1 figcaption p{
+		transition: all 0.5s
+	}
+	.test1{
+		transition: all 0.5s
+	}
+	.test1 img{
+		transition: all 0.5s
+	}
+		.test1{background-color: black;margin-left: 20px;border:2px solid #ccc;overflow: hidden;}
+		.test1 img{
+			cursor: pointer;
+			width: 300px;
+			height:250px;
+			opacity: 0.6;
+		}
+		.test1 figcaption p{
+			cursor: pointer;
+			color:white;
+			font-size: 18px;
+			margin-left: 105px;
+			margin-top: 50px;
+			font-family: 华文仿宋;
+			text-align: center;
+			transform: translate(-500px);
+		}
+		.test1 figcaption p:nth-of-type(1){transition-delay: 0.05s}
+		.test1 figcaption p:nth-of-type(2){transition-delay: 0.10s}
+		.test1:hover figcaption p{
+			transform: translate(0,0);
+		}
+		.test1:hover{box-shadow: 0 0 25px #333;}
+		.test1:hover img{opacity: 0.3;}
+
+/*test2*/
+		.test2 figcaption p{
+		transition: all 0.5s
+	}
+	.test2{
+		transition: all 0.5s
+	}
+	.test2 img{
+		transition: all 0.5s
+	}
+		.test2{background-color: black;margin-left: 115px;border:2px solid #ccc;overflow: hidden;}
+		.test2 img{
+			cursor: pointer;
+			width: 300px;
+			height:250px;
+			opacity: 0.6;
+		}
+		.test2 figcaption p{
+			cursor: pointer;
+			color:white;
+			font-size: 18px;
+			margin-left: 105px;
+			margin-top: 50px;
+			font-family: 华文仿宋;
+			text-align: center;
+			transform: translate(0,-200px);
+		}
+		.test2 figcaption p:nth-of-type(1){transition-delay: 0.05s}
+		.test2 figcaption p:nth-of-type(2){transition-delay: 0.10s}
+		.test2:hover figcaption p{
+			transform: translate(0,0);
+		}
+		.test2:hover{box-shadow: 0 0 25px #333;}
+		.test2:hover img{opacity: 0.3;}
+/*test3*/
+		.test3 figcaption p{
+		transition: all 0.5s
+	}
+	.test3{
+		transition: all 0.5s
+	}
+	.test3 img{
+		transition: all 0.5s
+	}
+		.test3{background-color: black;margin-left: 100px;border:2px solid #ccc;overflow: hidden;}
+		.test3 img{
+			cursor: pointer;
+			width: 300px;
+			height:250px;
+			opacity: 0.6;
+		}
+		.test3 figcaption p{
+			cursor: pointer;
+			color:white;
+			font-size: 18px;
+			text-align: center;
+			margin-left: 105px;
+			margin-top: 50px;
+			font-family: 华文仿宋;
+			transform: translate(500px);
+		}
+		.test3 figcaption p:nth-of-type(1){transition-delay: 0.05s}
+		.test3 figcaption p:nth-of-type(2){transition-delay: 0.10s}
+		.test3:hover figcaption p{
+			transform: translate(0,0);
+		}
+		.test3:hover{box-shadow: 0 0 25px #333;}
+		.test3:hover img{opacity: 0.3;}
+
+/*test4*/
+	.test4 figcaption p{
+		transition: all 0.5s
+	}
+	.test4{
+		transition: all 0.5s
+	}
+	.test4 img{
+		transition: all 0.5s
+	}
+		.test4{background-color: black;margin-left: 20px;border:2px solid #ccc;overflow: hidden;margin-top:50px}
+		.test4 img{
+			cursor: pointer;
+			width: 300px;
+			height:250px;
+			opacity: 0.6;
+		}
+		.test4 figcaption p{
+			cursor: pointer;
+			color:white;
+			font-size: 18px;
+			margin-left: 105px;
+			margin-top: 50px;
+			font-family: 华文仿宋;
+			text-align: center;
+			transform: translate(-500px);
+		}
+		.test4 figcaption p:nth-of-type(1){transition-delay: 0.05s}
+		.test4 figcaption p:nth-of-type(2){transition-delay: 0.10s}
+		.test4:hover figcaption p{
+			transform: translate(0,0);
+		}
+		.test4:hover{box-shadow: 0 0 25px #333;}
+		.test4:hover img{opacity: 0.3;}
+
+/*test5*/
+		.test5 figcaption p{
+		transition: all 0.5s
+	}
+	.test5{
+		transition: all 0.5s
+	}
+	.test5 img{
+		transition: all 0.5s
+	}
+		.test5{background-color: black;margin-left: 115px;border:2px solid #ccc;overflow: hidden;margin-top:50px;margin-bottom:100px}
+		.test5 img{
+			cursor: pointer;
+			width: 300px;
+			height:250px;
+			opacity: 0.6;
+		}
+		.test5 figcaption p{
+			cursor: pointer;
+			color:white;
+			font-size: 18px;
+			margin-left: 105px;
+			margin-top: 50px;
+			font-family: 华文仿宋;
+			text-align: center;
+			transform: translate(0,200px);
+		}
+		.test5 figcaption p:nth-of-type(1){transition-delay: 0.05s}
+		.test5 figcaption p:nth-of-type(2){transition-delay: 0.10s}
+		.test5:hover figcaption p{
+			transform: translate(0,0);
+		}
+		.test5:hover{box-shadow: 0 0 25px #333;}
+		.test5:hover img{opacity: 0.3;}
+/*test6*/
+		.test6 figcaption p{
+		transition: all 0.5s
+	}
+	.test6{
+		transition: all 0.5s
+	}
+	.test6 img{
+		transition: all 0.5s
+	}
+		.test6{background-color: black;margin-left: 100px;border:2px solid #ccc;overflow: hidden;margin-top:50px}
+		.test6 img{
+			cursor: pointer;
+			width: 300px;
+			height:250px;
+			opacity: 0.6;
+		}
+		.test6 figcaption p{
+			cursor: pointer;
+			color:white;
+			font-size: 18px;
+			text-align: center;
+			margin-left: 105px;
+			margin-top: 50px;
+			font-family:华文仿宋;
+			transform: translate(500px);
+		}
+		.test6 figcaption p:nth-of-type(1){transition-delay: 0.05s}
+		.test6 figcaption p:nth-of-type(2){transition-delay: 0.10s}
+		.test6:hover figcaption p{
+			transform: translate(0,0);
+		}
+		.test6:hover{box-shadow: 0 0 25px #333;}
+		.test6:hover img{opacity: 0.3;}
+	.row span{
+		font-size: 22px;
+
+	}

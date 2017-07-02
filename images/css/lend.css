@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'OleoScript-Regular';
+    src:url(../fonts/OleoScript-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+html,body{
+	background:#fff;
+	font-size: 100%;
+	font-family: 'Roboto-Regular';
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+h1,h2,h3,h4,h5,h6,label,p{
+	margin:0;	
+}
+
+
+/*--checkout--*/
+.check-out{
+	padding:4em 0em;
+}
+table{
+	width:100%;
+	  margin: 0em 0 2em;
+}
+th{
+	color: #52D0C4;
+  	font-size: 1.2em;
+ 	font-family: 'OleoScript-Regular';
+    font-weight: 400;	
+}
+th, td {
+    padding: 10px;
+}
+td{
+	color:#000;
+  font-size: 1.1em;
+}
+a.at-in {
+  float: left;
+    width: 20%;
+}
+.submit{
+   padding-left: 5px !important;
+  padding-right: 5px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  border: 2px solid #27e1ce;
+  color: #27E1CE;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.sed {
+    float: right;
+	width: 74%;
+}
+.sed h5{
+     color: #52D0C4;
+  	font-size: 1.1em;
+  	font-family: 'OleoScript-Regular';
+}
+.sed p{
+    color:#000;
+	font-size:1.1em;
+	line-height:1.8em;
+	padding:1em 0 0;
+}
+
+.check{
+	width:6%;
+}
+.ring-in{
+	width:45%;
+}
+.check-out h1 {
+    font-size: 3em;
+  color: #000;
+  font-family: 'OleoScript-Regular';
+  margin: 0 0px 1em;
+  text-align: center;
+}
+a.to-buy{
+	padding: 0.3em 0.7em;
+  color: #FFF;
+  background: #52D0C4;
+  margin: 0.5em 0 0;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 1.6em;
+  text-align: center;
+  text-decoration: none;
+}
+a.to-buy:hover{
+  background: #000;
+}
+/*--//checkout--*/
+
+
+
+/*--checkout--*/
+.check-out {
+  padding: 3em 0em;
+}
+.check-out h1 {
+  font-size: 2.5em;
+}
+
+
+/*--checkout--*/
+.sed p {
+  padding: 0.5em 0 0;
+}
+.check-out {
+  padding: 3em 0em;
+}
+/*--typo--*/
+
+@media(max-width:640px){
+.world {
+  width: 26%;
+  padding: 0;
+}	
+
+
+/*--checkout--*/
+th, td {
+  padding: 10px 4px;
+}
+
+/*--checkout--*/
+.check-out h1 {
+  font-size: 2em;
+  margin: 0 0 0.4em;
+}
+.check-out {
+  padding: 2em 0em;
+}
+.sed {
+  float: right;
+  width: 0;
+  display: none;
+}
+a.at-in {
+  float: left;
+  width: 76%;
+}
+.ring-in {
+  width: 20%;
+}
+th, td {
+  padding: 7px 0px;
+}
+th {
+  font-size: 1em;
+}
+td {
+  font-size: 0.8em;
+}
+a.to-buy {
+  margin: 0;
+  font-size: 0.8em;
+}
+.single {
+  padding: 2em 0;
+}
